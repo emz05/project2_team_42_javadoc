@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="dc.created" content="2025-10-21">
-<meta name="description" content="declaration: package: backend.classes, class: Drink">
+<meta name="description" content="declaration: package: backend.controllers, class: Drink">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../script-dir/jquery-ui.min.css" title="Style">
@@ -83,11 +83,11 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">backend.classes</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">backend.controllers</a></div>
 <h1 title="Class Drink" class="title">Class Drink</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
-<div class="inheritance">backend.classes.Drink</div>
+<div class="inheritance">backend.controllers.Drink</div>
 </div>
 <section class="class-description" id="class-description">
 <hr>
@@ -140,7 +140,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getCategory()" class="member-name-link">getCategory</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns the category this drink belongs to.</div>
+<div class="block">Returns the category of the drink.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getId()" class="member-name-link">getId</a>()</code></div>
@@ -160,12 +160,12 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getPrice()" class="member-name-link">getPrice</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns the price of the drink as a formatted string.</div>
+<div class="block">Returns the price of the drink as a string.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getPriceValue()" class="member-name-link">getPriceValue</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns the numeric value of the drink's price.</div>
+<div class="block">Returns the numeric price of the drink.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#isSeasonal()" class="member-name-link">isSeasonal</a>()</code></div>
@@ -185,7 +185,7 @@ loadScripts(document, 'script');</script>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setImagePath(java.lang.String)" class="member-name-link">setImagePath</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;imagePath)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Sets the file path for the drink’s image.</div>
+<div class="block">Sets the image path of the drink.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setName(java.lang.String)" class="member-name-link">setName</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;drinkName)</code></div>
@@ -252,143 +252,91 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getId()">
 <h3>getId</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">Returns the unique ID of the drink.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the unique identifier of the drink</dd>
-</dl>
+<div class="block">Returns the unique ID of the drink. @return drink ID</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setId(int)">
 <h3>setId</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setId</span><wbr><span class="parameters">(int&nbsp;id)</span></div>
-<div class="block">Sets the unique ID of the drink.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>id</code> - the new unique identifier for the drink</dd>
-</dl>
+<div class="block">Sets the unique ID of the drink. @param id new drink ID</div>
 </section>
 </li>
 <li>
 <section class="detail" id="getName()">
 <h3>getName</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getName</span>()</div>
-<div class="block">Returns the name of the drink.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the display name of the drink</dd>
-</dl>
+<div class="block">Returns the name of the drink. @return drink name</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setName(java.lang.String)">
 <h3>setName</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setName</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;drinkName)</span></div>
-<div class="block">Sets the name of the drink.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>drinkName</code> - the new name for the drink</dd>
-</dl>
+<div class="block">Sets the name of the drink. @param drinkName new drink name</div>
 </section>
 </li>
 <li>
 <section class="detail" id="getPrice()">
 <h3>getPrice</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getPrice</span>()</div>
-<div class="block">Returns the price of the drink as a formatted string.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the price of the drink</dd>
-</dl>
+<div class="block">Returns the price of the drink as a string. @return drink price</div>
 </section>
 </li>
 <li>
 <section class="detail" id="getPriceValue()">
 <h3>getPriceValue</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getPriceValue</span>()</div>
-<div class="block">Returns the numeric value of the drink's price.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the numeric price of the drink</dd>
-</dl>
+<div class="block">Returns the numeric price of the drink. @return numeric price</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setPrice(double)">
 <h3>setPrice</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setPrice</span><wbr><span class="parameters">(double&nbsp;drinkPrice)</span></div>
-<div class="block">Sets the price of the drink.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>drinkPrice</code> - the new price of the drink</dd>
-</dl>
+<div class="block">Sets the price of the drink. @param drinkPrice new price</div>
 </section>
 </li>
 <li>
 <section class="detail" id="getImagePath()">
 <h3>getImagePath</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getImagePath</span>()</div>
-<div class="block">Returns the path to the drink’s image.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the image file path</dd>
-</dl>
+<div class="block">Returns the path to the drink’s image. @return image path</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setImagePath(java.lang.String)">
 <h3>setImagePath</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setImagePath</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;imagePath)</span></div>
-<div class="block">Sets the file path for the drink’s image.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>imagePath</code> - the new image file path</dd>
-</dl>
+<div class="block">Sets the image path of the drink. @param imagePath new image path</div>
 </section>
 </li>
 <li>
 <section class="detail" id="getCategory()">
 <h3>getCategory</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getCategory</span>()</div>
-<div class="block">Returns the category this drink belongs to.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>the drink category</dd>
-</dl>
+<div class="block">Returns the category of the drink. @return drink category</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setCategory(java.lang.String)">
 <h3>setCategory</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setCategory</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;category)</span></div>
-<div class="block">Sets the category of the drink.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>category</code> - the new category</dd>
-</dl>
+<div class="block">Sets the category of the drink. @param category new category</div>
 </section>
 </li>
 <li>
 <section class="detail" id="isSeasonal()">
 <h3>isSeasonal</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isSeasonal</span>()</div>
-<div class="block">Returns whether the drink is seasonal.</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd><code>true</code> if the drink is seasonal, otherwise <code>false</code></dd>
-</dl>
+<div class="block">Returns whether the drink is seasonal. @return <code>true</code> if seasonal</div>
 </section>
 </li>
 <li>
 <section class="detail" id="setSeasonal(boolean)">
 <h3>setSeasonal</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setSeasonal</span><wbr><span class="parameters">(boolean&nbsp;isSeasonal)</span></div>
-<div class="block">Sets whether the drink is seasonal.</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>isSeasonal</code> - <code>true</code> if the drink is seasonal, otherwise <code>false</code></dd>
-</dl>
+<div class="block">Sets whether the drink is seasonal. @param isSeasonal <code>true</code> if seasonal</div>
 </section>
 </li>
 </ul>
