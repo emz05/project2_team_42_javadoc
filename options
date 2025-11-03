@@ -1,0 +1,22 @@
+-classpath
+'/home/runner/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/java-dotenv-5.2.2.jar:/home/runner/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.0/kotlin-stdlib-1.4.0.jar:/home/runner/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar:/home/runner/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/runner/.m2/repository/org/openjfx/javafx-controls/21.0.6/javafx-controls-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-controls/21.0.6/javafx-controls-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-graphics/21.0.6/javafx-graphics-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-graphics/21.0.6/javafx-graphics-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-base/21.0.6/javafx-base-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-base/21.0.6/javafx-base-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-fxml/21.0.6/javafx-fxml-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-fxml/21.0.6/javafx-fxml-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-web/21.0.6/javafx-web-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-web/21.0.6/javafx-web-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-swing/21.0.6/javafx-swing-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-swing/21.0.6/javafx-swing-21.0.6-linux.jar:/home/runner/.m2/repository/org/openjfx/javafx-media/21.0.6/javafx-media-21.0.6.jar:/home/runner/.m2/repository/org/openjfx/javafx-media/21.0.6/javafx-media-21.0.6-linux.jar:/home/runner/.m2/repository/org/controlsfx/controlsfx/11.2.1/controlsfx-11.2.1.jar:/home/runner/.m2/repository/com/dlsc/formsfx/formsfx-core/11.6.0/formsfx-core-11.6.0.jar:/home/runner/.m2/repository/net/synedra/validatorfx/0.6.1/validatorfx-0.6.1.jar:/home/runner/.m2/repository/org/kordamp/ikonli/ikonli-javafx/12.3.1/ikonli-javafx-12.3.1.jar:/home/runner/.m2/repository/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar:/home/runner/.m2/repository/org/kordamp/bootstrapfx/bootstrapfx-core/0.4.0/bootstrapfx-core-0.4.0.jar:/home/runner/.m2/repository/eu/hansolo/tilesfx/21.0.9/tilesfx-21.0.9.jar:/home/runner/.m2/repository/eu/hansolo/fx/countries/21.0.17/countries-21.0.17.jar:/home/runner/.m2/repository/eu/hansolo/fx/heatmap/21.0.5/heatmap-21.0.5.jar:/home/runner/.m2/repository/eu/hansolo/toolboxfx/21.0.5/toolboxfx-21.0.5.jar:/home/runner/.m2/repository/eu/hansolo/toolbox/21.0.9/toolbox-21.0.9.jar:/home/runner/.m2/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar:/home/runner/.m2/repository/com/github/almasb/fxgl-core/17.3/fxgl-core-17.3.jar:/home/runner/.m2/repository/com/gluonhq/attach/audio/4.0.17/audio-4.0.17.jar:/home/runner/.m2/repository/com/github/almasb/fxgl-io/17.3/fxgl-io-17.3.jar:/home/runner/.m2/repository/com/gluonhq/attach/storage/4.0.17/storage-4.0.17.jar:/home/runner/.m2/repository/com/gluonhq/attach/util/4.0.17/util-4.0.17.jar:/home/runner/.m2/repository/com/github/almasb/fxgl-entity/17.3/fxgl-entity-17.3.jar:/home/runner/.m2/repository/com/github/almasb/fxgl-scene/17.3/fxgl-scene-17.3.jar:/home/runner/.m2/repository/com/github/almasb/fxgl-gameplay/17.3/fxgl-gameplay-17.3.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/home/runner/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/home/runner/.m2/repository/com/gluonhq/attach/lifecycle/4.0.17/lifecycle-4.0.17.jar:/home/runner/.m2/repository/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/runner/work/project2_team_42/project2_team_42/src/app:/home/runner/work/project2_team_42/project2_team_42/src/backend'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/runner/work/project2_team_42/project2_team_42/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'demo2 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'demo2 1.0-SNAPSHOT API'

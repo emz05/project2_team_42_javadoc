@@ -1,0 +1,1 @@
+/usr/lib/jvm/temurin-21-jdk-amd64/bin/javadoc -Xdoclint:none @options @argfile
